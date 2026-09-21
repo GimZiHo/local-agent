@@ -46,7 +46,8 @@ local-agent/
 | 02 | 대화 Context와 System Prompt | [docs/02-context-system-prompt.md](docs/02-context-system-prompt.md) |
 | 03 | JSON 기반 장기 Memory와 정보 추출 | [docs/03-long-term-memory.md](docs/03-long-term-memory.md) |
 | 04 | Tool Calling 왕복 흐름 (get_current_time) | [docs/04-tool-calling.md](docs/04-tool-calling.md) |
+| 05 | 여러 Tool 등록과 실행 분기 (list_files) | [docs/05-multi-tool.md](docs/05-multi-tool.md) |
 
 ## 다음 학습 주제
 
-Tool Calling 확장 — 파일을 읽는 `read_file()` Tool을 추가하고, 여러 Tool 중 선택/반복 호출하는 Agent Loop로 나아갑니다.
+Agent Loop — Tool 호출을 반복하며 여러 작업을 스스로 끝내는 루프를 만듭니다.
