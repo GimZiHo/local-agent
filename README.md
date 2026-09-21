@@ -47,7 +47,8 @@ local-agent/
 | 03 | JSON 기반 장기 Memory와 정보 추출 | [docs/03-long-term-memory.md](docs/03-long-term-memory.md) |
 | 04 | Tool Calling 왕복 흐름 (get_current_time) | [docs/04-tool-calling.md](docs/04-tool-calling.md) |
 | 05 | 여러 Tool 등록과 실행 분기 (list_files) | [docs/05-multi-tool.md](docs/05-multi-tool.md) |
+| 06 | Agent Loop (반복 Tool 호출) | [docs/06-agent-loop.md](docs/06-agent-loop.md) |
 
 ## 다음 학습 주제
 
-Agent Loop — Tool 호출을 반복하며 여러 작업을 스스로 끝내는 루프를 만듭니다.
+파일을 읽는 `read_file()` Tool을 추가하고, Agent Loop에서 파일 탐색 → 읽기를 연결합니다.
